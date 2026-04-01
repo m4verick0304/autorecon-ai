@@ -1,0 +1,7 @@
+[
+  {
+    "service_regex": "^Apache httpd$",
+    "version_regex": "^2\\.4\\.49$",
+    "exploit": "Path Traversal (CVE-2021-41773)"
+  }
+]

@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+
+# Local nmap scans
+*.xml
+!scan.xml
