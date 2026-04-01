@@ -1,0 +1,13 @@
+# AutoReconAI dependencies
+# No heavy ML frameworks are required for the core rule-based engine.
+# Optional AI/LLM integrations are listed under [extras].
+
+# Core runtime - stdlib only; nothing to install for basic usage
+# (xml.etree.ElementTree, argparse, dataclasses, pathlib are all built-in)
+
+# ── Testing ──────────────────────────────────────────────────────────────────
+pytest>=7.4.0
+pytest-cov>=4.1.0
+
+# ── Linting / formatting ──────────────────────────────────────────────────────
+flake8>=6.1.0
