@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: autorecon-ai
+Version: 0.1.0
+Summary: AI-powered cybersecurity tool that automates reconnaissance and suggests relevant exploits based on detected services and versions
+Home-page: https://github.com/m4verick0304/autorecon-ai
+Author: AutoReconAI Contributors
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Information Technology
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Security
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# autorecon-ai
+AutoReconAI is an AI-powered cybersecurity tool that automates reconnaissance and suggests relevant exploits based on detected services and versions.
