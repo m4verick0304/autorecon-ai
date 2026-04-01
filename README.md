@@ -49,13 +49,27 @@ pip install -r requirements.txt
 
 ## ▶️ Usage
 
-```bash
-python3 main.py scan.xml
-```
+1. **Generate an Nmap XML scan:**
+   You must first generate an XML output file from Nmap for the target you want to analyze. Ensure you use service version detection (`-sV`):
+
+   ```bash
+   nmap -sV -oX scan.xml <target-ip>
+   ```
+
+2. **Run AutoReconAI:**
+   Pass the generated XML file to the recommender engine.
+
+   ```bash
+   python3 main.py scan.xml
+   ```
 
 **Example output:**
 
 ```text
+  🚀 AutoReconAI
+   Intelligent Vulnerability Scanner & Exploit Recommender
+    
+
 [+] Detected Service: Apache httpd 2.4.49
 [+] Suggested Exploit: Path Traversal (CVE-2021-41773)
 ```
